@@ -22,5 +22,8 @@ app.use(cors())
 app.use(express.json())
 app.use(require('./routes'))
 
-var porta = process.env.PORT || 5000;
-server.listen(porta);
+app.get('/api/mensagem', (req, res) => {
+    res.send({ express: 'Hello From Express' });
+  });
+  
+app.listen(port, () => console.log(`Listening on port ${port}`));
