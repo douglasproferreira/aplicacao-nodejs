@@ -22,6 +22,5 @@ app.use(cors())
 app.use(express.json())
 app.use(require('./routes'))
 
-server.listen(3000, () => {
-    console.log(':) Server started on port 3000')
-})
+var porta = process.env.PORT || 8080;
+app.listen(porta);
