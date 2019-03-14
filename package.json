@@ -28,5 +28,5 @@
     "frontend": "cd frontend && yarn start",
     "server": "node server.js",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"yarn run frontend\""
-
+  }
 }
