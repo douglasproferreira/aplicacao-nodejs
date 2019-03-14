@@ -22,5 +22,5 @@ app.use(cors())
 app.use(express.json())
 app.use(require('./routes'))
 
-var porta = process.env.PORT || 8080;
+var porta = process.env.PORT || 5000;
 server.listen(porta);
