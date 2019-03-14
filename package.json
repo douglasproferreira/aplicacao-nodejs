@@ -25,6 +25,6 @@
   },
   "scripts": {
     "start": "node src/server.js",
-    "heroku-postbuild": "cd ../frontend && npm install && npm run build"
+    "heroku-postbuild": "cd ../frontend && yarn && yarn run build"
   }
 }
