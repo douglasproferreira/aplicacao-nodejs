@@ -1,0 +1,29 @@
+{
+  "name": "aplicacao-nodejs",
+  "version": "1.0.0",
+  "description": "Aplicação em Node",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasproferreira/aplicacao-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasproferreira/aplicacao-nodejs/issues"
+  },
+  "homepage": "https://github.com/douglasproferreira/aplicacao-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js"
+  }
+}
