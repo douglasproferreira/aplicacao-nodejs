@@ -24,7 +24,6 @@
     "nodemon": "^1.18.10"
   },
   "scripts": {
-    "start": "node src/server.js",
-    "heroku-postbuild": "cd ../frontend && yarn && yarn run build"
-  }
+    "start": "node src/server.js"
+    }
 }
